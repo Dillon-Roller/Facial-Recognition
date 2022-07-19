@@ -32,8 +32,6 @@ For the program to make the best prediction as to what class the input data belo
 3. Do a nearest neighbour search on the projected test image and the projected training images in this lower dimensional space.
 4. The nearest point is our predicted image.
 
-For the predicted image, I have one image per person that shows the front of their face. This is used to show what the person looks like, not what pose they are in.
-
 ## Example Output
 We use images from a set of images that were not used for training. We call this the training set. This is to ensure that the classifier can correctly determine the person even if it has never seen that picture before. In addition, we will add various types of noise to the image and see how well it does. 
 
